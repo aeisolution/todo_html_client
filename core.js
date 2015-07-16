@@ -3,7 +3,7 @@ var scotchTodo = angular.module('scotchTodo', []);
 function mainController($scope, $http) {
 	$scope.formData = {};
 	
-	var urlAPI = 'http://178.62.183.26/api/v1'
+	var urlAPI = 'http://178.62.189.172/api/v1'
 
 	// when landing on the page, get all todos and show them
 	$http.get(urlAPI + '/todos')
